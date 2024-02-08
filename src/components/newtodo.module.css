@@ -1,0 +1,58 @@
+
+.form{
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem ;
+    border-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.from-field{
+    margin: 1rem 0;
+    display: flex;
+}
+
+.from-field label{
+    flex-basis: 20%;
+    font-size: 20px;
+}
+
+.from-field input{
+    flex: 80%;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+
+}
+
+.from-field textarea{
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+
+.from button{
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+ 
+}
+
+.form button{
+    background-color: orange;
+    color: white;
+    padding: 1%;
+    font-size: 16px;
+}
+
+
+
+
+
